@@ -63,6 +63,8 @@
                 margin-bottom: 30px;
             }
         </style>
+        <link href="{{ asset(ltrim(elixir('css/ourcss.css',"/"))) }}" rel="stylesheet" type="text/css"/>
+        <script src="{{ asset(ltrim(elixir('js/ourjs.js',"/"))) }}"></script>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
